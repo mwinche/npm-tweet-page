@@ -1,14 +1,29 @@
 {
-  "name": "mwinche-tweet-page",
+  "name": "npm-tweet-page",
   "version": "1.0.0",
-  "description": "",
+  "description": "Small webapp intended to be hosted on npm-tweet-server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -d"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mwinche/npm-tweet-page.git"
+  },
+  "keywords": [
+    "mwinche",
+    "utahjs",
+    "npm",
+    "whatisnpm",
+    "twitter",
+    "tweet",
+    "tweets",
+    "stream",
+    "streaming"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer-loader": "3.1.0",
     "babel-core": "5.8.25",
